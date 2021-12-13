@@ -68,10 +68,10 @@ const Header = ({ data }) => {
         <div className="banner-text">
           <h1 className="responsive-headline">
             <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
-            <TypeWriter typing={0.5}>{city?  `Based in ${city}. ${occupation}.` : null}</TypeWriter>
+            
           </h1>
-          <h3>
-            Based in {city}. <span>{occupation}</span>. {description}.
+          <h3 className="responsive-headline">
+            <TypeWriter typing={0.5}>{city?  `Based in ${city}. ${occupation}. ${description}` : null}</TypeWriter>
           </h3>
           <hr />
           <ul className="social">{networks}</ul>
