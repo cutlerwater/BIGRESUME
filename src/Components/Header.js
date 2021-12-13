@@ -60,11 +60,7 @@ const Header = ({ data }) => {
               Contact
             </a>
           </li>
-          <li>
-            <a className="smoothscroll" href="https://cutlerwater-profile.netlify.app/">
-              Main site
-            </a>
-          </li>
+          
         </ul>
       </nav>
 
