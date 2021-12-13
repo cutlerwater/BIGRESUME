@@ -54,9 +54,15 @@ const Header = ({ data }) => {
               Testimonials
             </a>
           </li>
+          
           <li>
             <a className="smoothscroll" href="#contact">
               Contact
+            </a>
+          </li>
+          <li>
+            <a className="smoothscroll" href="https://cutlerwater-profile.netlify.app/">
+              Main site
             </a>
           </li>
         </ul>
