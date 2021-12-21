@@ -1,8 +1,8 @@
 import React from 'react';
 import { FaCheckCircle, FaGithub } from 'react-icons/fa';
 import { useParams } from 'react-router-dom';
-import "swiper/components/effect-coverflow/effect-coverflow.min.css";
-import "swiper/components/pagination/pagination.min.css";
+import "swiper/modules/effect-coverflow/effect-coverflow.min.css";
+import "swiper/modules/pagination/pagination.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/swiper.min.css";
